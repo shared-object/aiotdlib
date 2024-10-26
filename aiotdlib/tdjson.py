@@ -23,7 +23,7 @@ SYSTEM_LIB_EXTENSION = {
     'darwin': 'dylib',
     'linux': 'so',
     'freebsd': 'so',
-    'nt': 'dll'
+    'windows': 'dll'
 }
 
 logger = logging.getLogger(__name__)
